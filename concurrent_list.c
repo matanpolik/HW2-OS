@@ -6,12 +6,13 @@
 
 struct node {
   int value;
-
+  int key;
+  node* next;
   // add more fields
 };
 
 struct list {
-  // add fields
+  node start;
 };
 
 void print_node(node* node)
